@@ -751,7 +751,7 @@ app.get("/privacy", (req, res) => {
     <p>Este asistente virtual de Grupo Linderos recolecta únicamente 
     <b>nombre</b> y <b>número de WhatsApp</b> con el propósito de que un asesor se comunique directamente contigo.</p>
     <p>No compartimos, vendemos ni usamos estos datos con fines distintos a la atención solicitada.</p>
-    <p>Para cualquier duda, escríbenos a: <a href="mailto:contacto@grupolinderos.com">contacto@grupolinderos.com</a></p>
+    <p>Para cualquier duda, escríbenos a: <a href="mailto:contacto@grupolinderos.com">santimoshe77@gmail.com</a></p>
   `);
 });
 
