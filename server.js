@@ -744,4 +744,15 @@ app.post("/webhook", async (req, res) => {
   }
 });
 
+// ===================== PRIVACY POLICY =====================
+app.get("/privacy", (req, res) => {
+  res.send(`
+    <h1>Política de Privacidad</h1>
+    <p>Este asistente virtual de Grupo Linderos recolecta únicamente 
+    <b>nombre</b> y <b>número de WhatsApp</b> con el propósito de que un asesor se comunique directamente contigo.</p>
+    <p>No compartimos, vendemos ni usamos estos datos con fines distintos a la atención solicitada.</p>
+    <p>Para cualquier duda, escríbenos a: <a href="mailto:contacto@grupolinderos.com">contacto@grupolinderos.com</a></p>
+  `);
+});
+
 app.listen(PORT, () => console.log(`Bot escuchando en http://localhost:${PORT} 🌳`));
